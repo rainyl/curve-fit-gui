@@ -347,7 +347,7 @@ pre[data-line] .line-highlight[data-end]:after {
         '''
         self.browser = QWebEngineView()
         self.browser.setHtml(html)
-        self.browser.load(QUrl('res\\help.html'))
+        self.browser.load(QUrl('https://github.com/rainyl/curve-fit-gui/blob/master/README.md'))
         # self.txb = QTextEdit()
         # self.txb.setStyleSheet(getEditQSS("#FFFFFF", "#A9A9A9"))
         # self.txb.setText("水文频率曲线拟合软件\n"
